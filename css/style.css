@@ -1,3 +1,81 @@
-body {
+html {
+	font-size: 18px;
+	font-weight: 400;
 	font-family: 'JetBrains Mono', monospace;
+}
+
+textarea {
+	font-family: 'JetBrains Mono', monospace;
+}
+
+.container {
+	display: flex;
+}
+
+.md-input, .html-output {
+	font-size: 1em;
+	line-height: 1.5;
+	box-sizing: border-box;
+	padding: 2em;
+	border: none;
+	width: 50vw;
+	height: 100vh;
+}
+
+.md-style {
+	background-color: #000;
+	color: #fff;
+}
+
+.html-style {
+	overflow: auto;
+	word-wrap: break-word;
+	background-color: #fff;
+	color: #000;
+}
+
+/* Typography */
+
+h1 {
+	font-size: 6rem;
+	line-height: 1em;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 5rem;
+	line-height: 1em;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 4rem;
+	line-height: 1em;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 3rem;
+	line-height: 1em;
+	font-weight: 600;
+}
+
+h5 {
+	font-size: 2rem;
+	line-height: 1em;
+	font-weight: 600;
+}
+
+h6 {
+	font-size: 1rem;
+	line-height: 1em;
+	font-weight: 600;
+}
+
+strong {
+	font-weight: 900;
+}
+
+em {
+	font-style: italic;
 }
